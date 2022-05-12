@@ -1,0 +1,27 @@
+.nav-item {
+    margin: auto;
+}
+
+.nav-demo {
+    background: black;
+    width: 40%;
+    margin: auto;
+    font-size: 30px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+@media screen and (max-width: 480px) {
+    .nav-item {
+        margin: auto;
+    }
+    .nav-demo {
+        background-color: #a1a1a1;
+        width: 100%;
+        margin: auto;
+        font-size: 25px;
+        border-bottom: 1px dotted #4f4f4f;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+}
